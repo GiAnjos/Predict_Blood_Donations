@@ -1,11 +1,8 @@
-# Print out the first 5 lines from the transfusion.data file using shell commands
-!head -n5 datasets/transfusion.data
-
 # Import pandas 
 import pandas as pd
 
 # Read in dataset
-transfusion = pd.read_csv("datasets/transfusion.data")
+transfusion = pd.read_csv("transfusion.data")
 
 # Print out the first rows of our dataset
 transfusion.head()
